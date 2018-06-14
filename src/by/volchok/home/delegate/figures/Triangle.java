@@ -6,5 +6,4 @@ public class Triangle implements Graphics {
     public void draw() {
         System.out.println("рисует треугольник");
     }
-
 }

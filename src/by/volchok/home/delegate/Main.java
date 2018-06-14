@@ -8,6 +8,7 @@ import by.volchok.home.delegate.figures.Triangle;
 /**
  * Делегат - ...
  *
+ * здесь: фигруы делегируют вызов метода draw  классу painter
  * */
 public class Main {
 
@@ -20,9 +21,9 @@ public class Main {
         painter.setGraphics(new Square());
         painter.draw();
 
-        /*Реализация  объекта интерфейсного типа на лету
+        /*
+        * Реализация  объекта интерфейсного типа на лету
         * Это будет анонимный класс - 6-тиугольник
-        *
         */
         painter.setGraphics(new Graphics() {
             @Override
